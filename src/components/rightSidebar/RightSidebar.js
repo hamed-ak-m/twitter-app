@@ -2,6 +2,17 @@ import React from "react";
 import { Typography } from "@material-ui/core";
 import useStyles from "./styles";
 import Grid from "@material-ui/core/Grid";
+import ButtonBase from "@material-ui/core/ButtonBase";
+
+const hashtags = [
+  "هشتگ_جدید",
+  "کرونا",
+  "corona_virus",
+  "کریپتو",
+  "Specex",
+  "Tesla",
+  "DogeCoin",
+];
 
 const RightSidebar = () => {
   const classes = useStyles();
@@ -16,15 +27,21 @@ const RightSidebar = () => {
         </grid>
       </Grid>
       <Typography className={classes.hashtagTitle}>داغ ترین هشتگ ها</Typography>
-      <Grid container direction={"column"}>
-        <Grid item container direction={"row"} alignItems={"center"}>
-          <Grid item>
-            <img alt={""} src={"images/hashtag.png"} />
-          </Grid>
-          <Grid item>
-            <Typography className={classes.tagItem}>هشتگ_جدید</Typography>
-          </Grid>
-        </Grid>
+      <Grid container direction={"column"} alignItems={"center"}>
+        {hashtags.map((item) => {
+          return (
+            <ButtonBase className={classes.tagItemParent}>
+              <Grid item container direction={"row"} alignItems={"center"}>
+                <img
+                  className={classes.tagImg}
+                  alt={""}
+                  src={"images/hashtag.png"}
+                />
+                <Typography className={classes.tagItem}>{item}</Typography>
+              </Grid>
+            </ButtonBase>
+          );
+        })}
       </Grid>
     </div>
   );

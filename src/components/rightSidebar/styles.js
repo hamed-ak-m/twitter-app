@@ -19,7 +19,18 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "1.1rem",
   },
   tagItem: {
-    marginRight: "0.5rem",
+    marginRight: "0.25rem",
+    fontSize: "0.8rem",
+  },
+  tagItemParent: {
+    marginBottom: "0.1rem",
+    padding: "0.15rem !important",
+    width: "100%",
+    marginRight: "0.2rem",
+  },
+  tagImg: {
+    width: "1.5rem",
+    height: "1.5rem",
   },
 }));
 
