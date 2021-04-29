@@ -1,11 +1,16 @@
 import { createMuiTheme } from "@material-ui/core";
+const colorPrimary = "#5ea9dd";
 
 const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: colorPrimary,
+    },
+  },
   overrides: {
     MuiTypography: {
       root: {
-        fontFamily: "arial !important",
-        fontSize: "2rem !important",
+        fontFamily: "shabnam !important",
       },
     },
   },

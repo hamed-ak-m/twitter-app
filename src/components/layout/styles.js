@@ -7,10 +7,6 @@ const useStyles = makeStyles({
     width: "100%",
     overflow: "hidden",
   },
-  rightSidebar: {
-    backgroundColor: "blue",
-    width: "18%",
-  },
   leftSidebar: {
     backgroundColor: "blue",
     width: "25%",
@@ -18,6 +14,12 @@ const useStyles = makeStyles({
   mainPart: {
     flex: 1,
     backgroundColor: "#BDC3C7",
+  },
+  divider: {
+    height: "100%",
+    width: 1,
+    backgroundColor: "#7EBAFF !important",
+    filter: "opacity(0.5)",
   },
 });
 
