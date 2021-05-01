@@ -62,15 +62,13 @@ const LeftSidebar = () => {
       <Grid container direction={"row-reverse"}>
         <img
           alt={""}
-          src={"images/user img.png"}
-          style={{ width: "max-content" }}
+          src={"images/elemental2.png"}
+          style={{ width: "3rem", height: "3rem" }}
         />
 
         <Grid item container direction={"column"} className={classes.profText}>
-          <Typography className={classes.profName}>محمد مطواعی</Typography>
-          <Typography className={classes.profUsername}>
-            Mohammad.metvayi
-          </Typography>
+          <Typography className={classes.profName}>Elemental</Typography>
+          <Typography className={classes.profUsername}>Elemental01</Typography>
         </Grid>
       </Grid>
       <Grid container direction={"column"} className={classes.twittersroot}>

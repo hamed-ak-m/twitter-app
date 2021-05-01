@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/styles";
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: "white",
-    width: "18%",
+    width: "15%",
     padding: "1.5rem 1rem",
   },
   logoPlace: {
