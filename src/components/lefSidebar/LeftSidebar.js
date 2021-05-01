@@ -75,7 +75,7 @@ const LeftSidebar = () => {
         <Typography className={classes.twittersListTitle}>
           بهترین خبرنگاران
         </Typography>
-        <Divider style={{ marginLeft: -24, marginRight: -24 }} />
+        <Divider style={{ marginLeft: -20, marginRight: -20 }} />
         {twitter.map((item, index) => {
           return (
             <React.Fragment>
@@ -85,7 +85,7 @@ const LeftSidebar = () => {
                 img={item.img}
               />
               {index !== twitter.length - 1 && (
-                <Divider style={{ marginLeft: -24, marginRight: -24 }} />
+                <Divider style={{ marginLeft: -20, marginRight: -20 }} />
               )}
             </React.Fragment>
           );

@@ -31,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
   twitterUsername: {
     color: theme.palette.text.hint,
     fontSize: "0.65rem",
+    direction: "ltr",
   },
   profText: {
     marginLeft: "0.5rem",
