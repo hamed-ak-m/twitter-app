@@ -6,10 +6,14 @@ const useStyles = makeStyles((theme) => ({
     width: "18%",
     padding: "1.5rem 1rem",
   },
+  logoPlace: {
+    alignItems: "center",
+    justifyContent: "center",
+  },
   logoType: {
     fontSize: "1.25rem !important",
     fontWeight: "600 !important",
-    marginRight: "1.2rem",
+    marginRight: "0.8rem",
     color: theme.palette.primary.main,
   },
   hashtagTitle: {

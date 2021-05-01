@@ -18,7 +18,12 @@ const RightSidebar = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Grid container direction={"row"} alignItems={"center"}>
+      <Grid
+        container
+        className={classes.logoPlace}
+        direction={"row"}
+        alignItems={"center"}
+      >
         <grid item>
           <img alt={""} src={"images/logo.png"} />
         </grid>
