@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/styles";
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: "white",
-    width: "20%",
+    width: "25%",
     padding: "1.5rem 2rem",
   },
   twitterNameParent: {
@@ -23,14 +23,14 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.primary.main,
   },
   twitterName: {
-    fontSize: "0.9rem !important",
+    fontSize: "1rem !important",
     fontWeight: 550,
     direction: "ltr !important",
     color: "black",
   },
   twitterUsername: {
     color: theme.palette.text.hint,
-    fontSize: "0.65rem",
+    fontSize: "0.8rem",
     direction: "ltr",
   },
   profText: {

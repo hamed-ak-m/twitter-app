@@ -8,7 +8,7 @@ const Twitters = ({ name, username, img }) => {
   return (
     <ButtonBase className={classes.Button}>
       <Grid container direction={"row"} className={classes.twitterItem}>
-        <img alt={""} src={img} style={{ width: "2.5rem", height: "2.5rem" }} />
+        <img alt={""} src={img} style={{ width: "3rem", height: "3rem" }} />
 
         <Grid
           item

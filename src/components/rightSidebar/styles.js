@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/styles";
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: "white",
-    width: "15%",
+    width: "18%",
     padding: "1.5rem 1rem",
   },
   logoPlace: {
@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
   },
   tagItem: {
     marginRight: "0.25rem",
-    fontSize: "0.8rem",
+    fontSize: "1rem",
     color: "black",
   },
   tagItemParent: {
@@ -37,8 +37,8 @@ const useStyles = makeStyles((theme) => ({
     borderTopLeftRadius: "2rem",
   },
   tagImg: {
-    width: "1.5rem",
-    height: "1.5rem",
+    width: "1.8rem",
+    height: "1.8rem",
   },
 }));
 
