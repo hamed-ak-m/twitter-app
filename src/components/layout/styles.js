@@ -7,6 +7,10 @@ const useStyles = makeStyles({
     width: "100%",
     overflow: "hidden",
   },
+  container: {
+    flex: 1,
+    overflowY: "auto",
+  },
 
   divider: {
     height: "100%",

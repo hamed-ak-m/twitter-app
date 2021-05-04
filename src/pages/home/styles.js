@@ -2,9 +2,7 @@ import { makeStyles } from "@material-ui/styles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flex: 1,
     backgroundColor: "#e6e6e6",
-    overflowY: "auto",
   },
   header: {
     padding: "1.1rem",

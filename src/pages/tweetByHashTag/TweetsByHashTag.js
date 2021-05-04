@@ -1,10 +1,9 @@
 import React from "react";
-import useStyles from "./styles";
+import useStyles from "../home/styles";
 import Header from "../../components/Header/Header";
 import { Divider } from "@material-ui/core";
-import NewTweet from "./components/NewTweet";
-import TweetList from "./components/TweetList";
-import HomeIcon from "@material-ui/icons/Home";
+import TweetList from "../home/components/TweetList";
+
 const tweets = [
   {
     sender: {
@@ -88,16 +87,18 @@ const tweets = [
   },
 ];
 
-const Home = () => {
+const TweetsByHashTag = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Header title={"خانه"} icon={<HomeIcon />} />
+      <Header
+        title={"کرونا ویروس"}
+        icon={<img alt={""} src={"images/hashtag.png"} />}
+      />
       <Divider className={classes.divider} />
-      <NewTweet />
       <TweetList data={tweets} />
     </div>
   );
 };
 
-export default Home;
+export default TweetsByHashTag;
