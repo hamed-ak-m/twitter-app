@@ -7,6 +7,15 @@ import { IconButton, Typography } from "@material-ui/core";
 const Tweet = ({ data }) => {
   const classes = useStyles();
 
+  const renderTweet = (text) => {
+    return {
+      __html: text.replace(
+        /#\S+/g,
+        "<a href='/tags/$&' style='color:cornflowerblue'>$&</a>"
+      ),
+    };
+  };
+
   return (
     <div>
       <div className={classes.tweetItem}>
@@ -25,7 +34,11 @@ const Tweet = ({ data }) => {
                 {data.sender.username}
               </Typography>
             </Grid>
-            <Typography className={classes.tweetText}>{data.text}</Typography>
+            <Typography
+              dangerouslySetInnerHTML={renderTweet(data.text)}
+              className={classes.tweetText}
+              component={"p"}
+            ></Typography>
           </Grid>
         </Grid>
         <Grid

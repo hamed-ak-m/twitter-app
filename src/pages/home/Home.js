@@ -12,8 +12,7 @@ const tweets = [
       username: "@samsung",
       img: "images/samsung.png",
     },
-    text:
-      "Nam condimentum vehicula velit a sodales. Quisque vel lacus eu elit cursus volutpat sit amet in nibh.",
+    text: "توییت فارسی دارای #هشتگ برای تست سایت #react و پروژه آموزشی",
     likes: 9,
   },
   {
@@ -23,7 +22,7 @@ const tweets = [
       img: "images/koooh_user.png",
     },
     text:
-      "Sed lacus mauris, blandit ut mi id, ornare cursus erat. Nunc vitae felis non metus varius dapibus.",
+      "#Sed lacus mauris, blandit ut mi id, ornare cursus erat. Nunc vitae felis non metus varius dapibus.",
     likes: 19,
   },
   {

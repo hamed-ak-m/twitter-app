@@ -15,7 +15,7 @@ const Layout = () => {
       <RightSidebar />
       <Divider orientation={"vertical"} className={classes.divider} />
       <div className={classes.container}>
-        <TweetsByTweeter />
+        <Home />
       </div>
       <Divider orientation={"vertical"} className={classes.divider} />
       <LeftSidebar />

@@ -3,7 +3,6 @@ import useStyles from "../home/styles";
 import Header from "../../components/Header/Header";
 import { Divider } from "@material-ui/core";
 import TweetList from "../home/components/TweetList";
-import { VerifiedUser as UserIcon } from "@material-ui/icons";
 import PersonIcon from "@material-ui/icons/Person";
 
 const tweets = [
