@@ -6,13 +6,13 @@ import ButtonBase from "@material-ui/core/ButtonBase";
 import { Link } from "react-router-dom";
 
 const hashtags = [
-  "هشتگ_جدید",
-  "کرونا",
-  "corona_virus",
-  "کریپتو",
-  "Specex",
-  "Tesla",
-  "DogeCoin",
+  // "هشتگ_جدید",
+  // "کرونا",
+  // "corona_virus",
+  // "کریپتو",
+  // "Specex",
+  // "Tesla",
+  // "DogeCoin",
 ];
 
 const RightSidebar = () => {
