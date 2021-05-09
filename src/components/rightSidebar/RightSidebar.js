@@ -39,7 +39,7 @@ const RightSidebar = () => {
         {hashtags.map((item) => {
           return (
             <ButtonBase className={classes.tagItemParent}>
-              <Link to={`/hashtag/${item.username}`} style={{ width: "100%" }}>
+              <Link to={"/hashtag/" + item} style={{ width: "100%" }}>
                 <Grid item container direction={"row"} alignItems={"center"}>
                   <img
                     className={classes.tagImg}
