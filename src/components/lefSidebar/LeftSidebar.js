@@ -28,31 +28,31 @@ const Twitters = ({ name, username, img }) => {
 };
 
 const twitter = [
-  {
-    name: "Xiaomi",
-    username: "@xiaomi",
-    img: "/images/xiaomi.png",
-  },
-  {
-    name: "Samsung",
-    username: "@samsung",
-    img: "/images/samsung.png",
-  },
-  {
-    name: "بیل گیتس",
-    username: "@billgates",
-    img: "/images/bil.png",
-  },
-  {
-    name: "مایک بای",
-    username: "@mike_IMC",
-    img: "/images/mike.png",
-  },
-  {
-    name: "شرلی ونگ",
-    username: "@sherlyweng",
-    img: "/images/shily.png",
-  },
+  // {
+  //   name: "Xiaomi",
+  //   username: "@xiaomi",
+  //   img: "/images/xiaomi.png",
+  // },
+  // {
+  //   name: "Samsung",
+  //   username: "@samsung",
+  //   img: "/images/samsung.png",
+  // },
+  // {
+  //   name: "بیل گیتس",
+  //   username: "@billgates",
+  //   img: "/images/bil.png",
+  // },
+  // {
+  //   name: "مایک بای",
+  //   username: "@mike_IMC",
+  //   img: "/images/mike.png",
+  // },
+  // {
+  //   name: "شرلی ونگ",
+  //   username: "@sherlyweng",
+  //   img: "/images/shily.png",
+  // },
 ];
 
 const LeftSidebar = () => {
