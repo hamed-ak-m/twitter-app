@@ -52,7 +52,7 @@ const Tweet = ({ data }) => {
           >
             <img
               alt={""}
-              src={"images/retweet.png"}
+              src={"/images/retweet.png"}
               className={classes.newTweetImg}
             />
           </IconButton>

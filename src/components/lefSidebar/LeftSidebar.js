@@ -2,6 +2,7 @@ import React from "react";
 import { ButtonBase, Divider, Typography } from "@material-ui/core";
 import useStyles from "./styles";
 import Grid from "@material-ui/core/Grid";
+import { Link } from "react-router-dom";
 
 const Twitters = ({ name, username, img }) => {
   const classes = useStyles();
@@ -30,27 +31,27 @@ const twitter = [
   {
     name: "Xiaomi",
     username: "@xiaomi",
-    img: "images/xiaomi.png",
+    img: "/images/xiaomi.png",
   },
   {
     name: "Samsung",
     username: "@samsung",
-    img: "images/samsung.png",
+    img: "/images/samsung.png",
   },
   {
     name: "بیل گیتس",
     username: "@billgates",
-    img: "images/bil.png",
+    img: "/images/bil.png",
   },
   {
     name: "مایک بای",
     username: "@mike_IMC",
-    img: "images/mike.png",
+    img: "/images/mike.png",
   },
   {
     name: "شرلی ونگ",
     username: "@sherlyweng",
-    img: "images/shily.png",
+    img: "/images/shily.png",
   },
 ];
 
@@ -62,7 +63,7 @@ const LeftSidebar = () => {
       <Grid container direction={"row-reverse"}>
         <img
           alt={""}
-          src={"images/elemental2.png"}
+          src={"/images/elemental2.png"}
           style={{ width: "3rem", height: "3rem" }}
         />
 
@@ -78,7 +79,7 @@ const LeftSidebar = () => {
         <Divider style={{ marginLeft: -20, marginRight: -20 }} />
         {twitter.map((item, index) => {
           return (
-            <React.Fragment>
+            <Link to={"/users/" + item.name}>
               <Twitters
                 name={item.name}
                 username={item.username}
@@ -87,7 +88,7 @@ const LeftSidebar = () => {
               {index !== twitter.length - 1 && (
                 <Divider style={{ marginLeft: -20, marginRight: -20 }} />
               )}
-            </React.Fragment>
+            </Link>
           );
         })}
       </Grid>

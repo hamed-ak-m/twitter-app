@@ -11,7 +11,7 @@ const NewTweet = () => {
       <Grid container>
         <img
           alt={""}
-          src={"images/elemental2.png"}
+          src={"/images/elemental2.png"}
           style={{ width: "3.5rem", height: "3.5rem" }}
         />
         <textarea placeholder={"توییت کن..."} className={classes.input} />
@@ -34,7 +34,7 @@ const NewTweet = () => {
         >
           <img
             alt={""}
-            src={"images/tweetpic.png"}
+            src={"/images/tweetpic.png"}
             className={classes.newTweetImg}
           />
         </IconButton>

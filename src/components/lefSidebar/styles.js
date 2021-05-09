@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
     borderTopRightRadius: "2rem",
     borderBottomRightRadius: "2rem",
     color: theme.palette.primary.main,
+    width: "100%",
   },
   twitterName: {
     fontSize: "1rem !important",
